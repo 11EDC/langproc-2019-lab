@@ -1,0 +1,9 @@
+const _zero_4 0
+param _val_3 0
+beq _val_3 _zero_4 _label_1
+param _res_0 1
+beq _zero_4 _zero_4 _label_2
+:_label_1
+param _res_0 2
+:_label_2
+halt _res_0

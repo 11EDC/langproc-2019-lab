@@ -1,0 +1,6 @@
+const x 10
+const _zero_1 0
+add _res_0 x _zero_1
+const _zero_2 0
+add _res_0 x _zero_2
+halt _res_0

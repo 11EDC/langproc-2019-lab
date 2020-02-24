@@ -1,0 +1,27 @@
+const x 10
+const _zero_1 0
+add _res_0 x _zero_1
+const y 11
+const _zero_2 0
+add _res_0 y _zero_2
+const z 10
+const _zero_3 0
+add _res_0 z _zero_3
+const _zero_6 0
+add _val_4 x _zero_6
+const _zero_7 0
+add _val_5 y _zero_7
+add x _val_4 _val_5
+const _zero_8 0
+add _res_0 x _zero_8
+const _zero_11 0
+add _val_9 x _zero_11
+const _zero_12 0
+add _val_10 z _zero_12
+add z _val_9 _val_10
+const _zero_13 0
+add _res_0 z _zero_13
+const _zero_14 0
+add _res_0 z _zero_14
+output _res_0
+halt _res_0

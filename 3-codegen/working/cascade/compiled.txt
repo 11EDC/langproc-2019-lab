@@ -1,0 +1,43 @@
+const x 0
+const _zero_1 0
+add _res_0 x _zero_1
+const y 1
+const _zero_2 0
+add _res_0 y _zero_2
+const _zero_6 0
+const _zero_9 0
+add _val_7 x _zero_9
+const _val_8 1
+add _val_5 _val_7 _val_8
+beq _val_5 _zero_6 _label_3
+const _zero_13 0
+const _zero_14 0
+add _val_12 y _zero_14
+beq _val_12 _zero_13 _label_10
+const _zero_19 0
+:_label_17
+const _zero_20 0
+add _val_15 x _zero_20
+beq _val_15 _zero_19 _label_18
+const x 1
+const _zero_21 0
+add _val_16 x _zero_21
+beq _zero_19 _zero_19 _label_17
+:_label_18
+const _res_0 0
+const x 2
+const _zero_22 0
+add _res_0 x _zero_22
+beq _zero_13 _zero_13 _label_11
+:_label_10
+const _res_0 4
+:_label_11
+beq _zero_6 _zero_6 _label_4
+:_label_3
+const x 3
+const _zero_23 0
+add _res_0 x _zero_23
+:_label_4
+const _zero_24 0
+add _res_0 x _zero_24
+halt _res_0

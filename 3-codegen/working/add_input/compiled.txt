@@ -1,0 +1,27 @@
+const a 0
+const _zero_1 0
+add _res_0 a _zero_1
+input i
+const _zero_2 0
+add _res_0 i _zero_2
+const _zero_7 0
+:_label_5
+const _zero_8 0
+add _val_3 i _zero_8
+beq _val_3 _zero_7 _label_6
+const _zero_11 0
+add _val_9 a _zero_11
+const _zero_12 0
+add _val_10 i _zero_12
+add a _val_9 _val_10
+const _zero_13 0
+add _val_4 a _zero_13
+input i
+const _zero_14 0
+add _val_4 i _zero_14
+beq _zero_7 _zero_7 _label_5
+:_label_6
+const _res_0 0
+const _zero_15 0
+add _res_0 a _zero_15
+halt _res_0
